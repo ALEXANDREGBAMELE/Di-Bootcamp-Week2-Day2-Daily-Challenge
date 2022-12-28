@@ -1,0 +1,32 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Daily chalenge</title>
+    </head>
+    <body>
+        <script>
+            let sentence = "The film is not so bad, I like it";
+            
+            let wordNot = sentence.indexOf("not");
+            let wordBad = sentence.indexOf("bad");
+
+            console.log(sentence.length)
+            if(wordBad > wordNot)
+            {
+                console.log(sentence.replace('not so bad','Good'));
+                
+            }
+            else
+            {
+                console.log(sentence);
+                
+
+            }
+            
+            
+        </script>
+    </body>
+    </html>
